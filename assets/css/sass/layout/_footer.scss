@@ -1,0 +1,32 @@
+.footer {
+    margin-top: 1%;
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 700;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+.derechos {
+    vertical-align: middle;
+    padding-top: 1%;
+}
+.legal li {
+    display: inline-block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.legal li:hover {
+    color: orange;
+}
+.legal li button:hover {
+    background-color: orange;
+    color: white;
+}
+.legal li input:hover {
+    background-color: orange;
+    color: black;
+}

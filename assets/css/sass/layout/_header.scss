@@ -1,0 +1,130 @@
+
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 700;
+    background-color: black;
+
+}
+
+.logo {
+    height: 60%;
+    width: auto;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.textos-nav p {
+    display: inline-block;
+    margin: 10px;  
+    font-size:15px;
+    padding-top: 8px;
+    padding-right: 10px;
+    color: white;
+    vertical-align: middle;
+}
+.textos-nav p:hover {
+    color: orange;
+}
+.textos-nav i:hover{
+    color: orange;
+}
+//media queries
+//extra-small
+@media (min-width: 0px) {
+    .textos-nav p {
+        display: none;
+    }
+    .textos-nav i{
+        display: block;
+        color: white;
+        margin-top: 15px;
+        margin-right: 25px;
+    }
+    .logo {
+        height: 60%;
+        width: auto;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .textos-nav p {
+        display: none;
+    }
+    .textos-nav i{
+        display: block;
+        color: white;
+        margin-top: 15px;
+        margin-right: 25px;
+    }
+    .logo {
+        height: 60%;
+        width: auto;
+        margin-left: 2%;
+        margin-top: 1%;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .textos-nav p {
+        display: block;
+        display: inline-block;
+    }
+    .textos-nav i{
+        display: none;
+    }
+    .logo {
+        height: 60%;
+        width: auto;
+        margin-left: 3%;
+        margin-top: 1%;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .textos-nav p {
+        display: block;
+        display: inline-block;
+    }
+    .textos-nav i{
+        display: none;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .textos-nav p {
+        display: block;
+        display: inline-block;
+    }
+    .textos-nav i{
+        display: none;
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    .textos-nav p {
+        display: block;
+        display: inline-block;
+    }
+    .textos-nav i{
+        display: none;
+    }
+}

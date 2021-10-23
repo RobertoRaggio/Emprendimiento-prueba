@@ -1,0 +1,79 @@
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 65px;
+  width: 100%;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 700;
+  background-color: black;
+}
+
+.logo {
+  position: relative;
+  float: left;
+  width: 2%;
+  height: 2%;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+.textos-nav p {
+  display: inline-block;
+  margin: 10px;
+  font-size: 15px;
+  padding-top: 8px;
+  padding-right: 10px;
+  color: white;
+  vertical-align: middle;
+}
+
+.container {
+  justify-content: center;
+}
+
+.foto1 {
+  width: 50%;
+  height: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%;
+  border-color: black 1px;
+}
+
+.foto2 {
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.primer-texto {
+  padding-left: 5%;
+}
+
+.iconos1 {
+  padding-left: 5%;
+  display: inline-block;
+}
+
+.container {
+  border-width: 50%;
+  border-color: black;
+  border-style: solid;
+  margin-left: 2%;
+}
+
+/*# sourceMappingURL=style.scss.map */
